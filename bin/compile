@@ -27,7 +27,7 @@ mkdir -p $CACHE_DIR
 
 status "Installing CommandBox"
 
-curl --location 'https://www.ortussolutions.com/parent/download/commandbox/type/bin' -o /tmp/box.zip
+curl --location 'https://downloads.ortussolutions.com/ortussolutions/commandbox/4.8.0/commandbox-bin-4.8.0.zip' -o /tmp/box.zip
 mkdir $BUILD_DIR/bin
 export PATH=$PATH:$BUILD_DIR/bin
 unzip /tmp/box.zip -d $BUILD_DIR/bin
